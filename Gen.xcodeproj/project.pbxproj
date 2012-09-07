@@ -34,6 +34,7 @@
 		33071B1788130B3D3D4C149F /* GenClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 330718CCD7911609452298B0 /* GenClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33071B3789DBBB5F6528082D /* GenEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071749141CEA951AC8DCB7 /* GenEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33071BBFFCD80CC148C47A2C /* GenVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 330711FDD01151F68B24536E /* GenVariable.m */; };
+		33071BCF33FD19FB9A2FD172 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3307109184EA026A701F14C6 /* LICENSE */; };
 		33071C5CF875348C3DFA6F34 /* GenObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 330710B8FE3F82EA0C6D466E /* GenObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33071CBE28FDC76616662856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33071A673AC06B58E1B47C3D /* InfoPlist.strings */; };
 		33071CC0336910423BD2AF5A /* GenTypedef.h in Headers */ = {isa = PBXBuildFile; fileRef = 330718AF2DF7D703A01D6AFE /* GenTypedef.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3307109184EA026A701F14C6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		330710B8FE3F82EA0C6D466E /* GenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenObject.h; sourceTree = "<group>"; };
 		330710E6DFC6F0030A30FD45 /* GenStatementGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenStatementGroup.m; sourceTree = "<group>"; };
 		330710F17D905D147A7ED9FD /* GenConditionalStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenConditionalStatement.m; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		330710A9A577993F265413D3 = {
 			isa = PBXGroup;
 			children = (
+				3307109184EA026A701F14C6 /* LICENSE */,
 				3307141172A40590E7DC9CCB /* README.md */,
 				330715C2B1B335B5490C9A41 /* Products */,
 				33071F423E013B6C583C5062 /* Frameworks */,
@@ -331,6 +334,7 @@
 			files = (
 				33071DC9ED8ECDD7D9245B3A /* InfoPlist.strings in Resources */,
 				33071A4E08BC97AE74A60A5C /* README.md in Resources */,
+				33071BCF33FD19FB9A2FD172 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
