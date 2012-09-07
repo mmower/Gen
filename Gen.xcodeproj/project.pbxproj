@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330710BE71203736FD3CB99D /* GenConditionalStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 330710F17D905D147A7ED9FD /* GenConditionalStatement.m */; };
+		330710EA55C76B7D21EC3E96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33071E717F11F3DCD034420F /* Cocoa.framework */; };
+		3307115727DD03A48277BB94 /* GenCompilationUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071CA954DB8DDD95BF0BC4 /* GenCompilationUnit.m */; };
+		3307124321209C455762A648 /* GenType.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071276077C439A510B8C5E /* GenType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330712B67D2F81DBCA9F1BDE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307141D231FC58883BE5AFF /* SenTestingKit.framework */; };
+		330712EFBBF6CF3A87681859 /* GenConditionalStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 330711E10A8F5DD0A991867B /* GenConditionalStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071321BE0343A808E463BE /* GenArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071388A50D7E2466039889 /* GenArgument.m */; };
+		330713487CC64940D5C4DBCD /* GenMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307152D9CDFE01528B30F8A /* GenMethod.m */; };
+		33071363B5D3F2957E92952F /* GenProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307163B0D192C7244113FA4 /* GenProtocol.m */; };
+		330713B65761B0BFEB6DA1EA /* GenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307166BBE28451086F13F00 /* GenTests.m */; };
+		330713EE5AFFE02F64917686 /* GenProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 330712B8B4C5D2D00AF3461B /* GenProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330715EFA13E39829A3383BD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33071E717F11F3DCD034420F /* Cocoa.framework */; };
+		33071637737A15C3C61B1D66 /* GenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071F256484AC6E34ECECE7 /* GenObject.m */; };
+		3307166223FE9E6C54F9F8AA /* GenVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071A79F7D835440B4883E7 /* GenVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071679EE1443FDEB7736AA /* GenStatementGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071799257A2AFE08807B96 /* GenStatementGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3307174CEC532B61A5EE8343 /* GenEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071C70DD174B788E2FB185 /* GenEnumeration.m */; };
+		33071794BFD3631B44B76BB9 /* GenCompilationUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 330711822C777CC31164EA2F /* GenCompilationUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330717C6E72CF533C7735E2C /* GenMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 3307158770261A8C00BC6654 /* GenMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330718310F669A0EC9E468B0 /* GenCodeStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071FBF7C0E0BFF30D8E223 /* GenCodeStatement.m */; };
+		3307193165CBA3D193F9AC85 /* GenProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071AE53C2772883CC074D3 /* GenProperty.m */; };
+		33071946304DE0B7D4237993 /* GenTypedef.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071F262E19F7AD1ABB1BE5 /* GenTypedef.m */; };
+		33071A2975D9F0E313366CFD /* GenStatementGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 330710E6DFC6F0030A30FD45 /* GenStatementGroup.m */; };
+		33071A46CB5FE7EED0323B08 /* Gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3307182785D40793B108EBD5 /* Gen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071A4E08BC97AE74A60A5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3307141172A40590E7DC9CCB /* README.md */; };
+		33071B1788130B3D3D4C149F /* GenClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 330718CCD7911609452298B0 /* GenClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071B3789DBBB5F6528082D /* GenEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071749141CEA951AC8DCB7 /* GenEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071BBFFCD80CC148C47A2C /* GenVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 330711FDD01151F68B24536E /* GenVariable.m */; };
+		33071C5CF875348C3DFA6F34 /* GenObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 330710B8FE3F82EA0C6D466E /* GenObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071CBE28FDC76616662856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33071A673AC06B58E1B47C3D /* InfoPlist.strings */; };
+		33071CC0336910423BD2AF5A /* GenTypedef.h in Headers */ = {isa = PBXBuildFile; fileRef = 330718AF2DF7D703A01D6AFE /* GenTypedef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071D23F8D25E683BC84F29 /* GenStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307122C0D42988B2F399E0B /* GenStatement.m */; };
+		33071D731C1AFE812DD553AA /* GenArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 330719096344A7F0F52E3C46 /* GenArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071DADB4713D7BFED5A9CA /* GenClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 330718B568C89075B40C4D85 /* GenClass.m */; };
+		33071DC9ED8ECDD7D9245B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 330717457FCF2CC0AE9B203B /* InfoPlist.strings */; };
+		33071E3E0A76E8E98BC25981 /* GenProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 330713C95BEEEA339E0C9594 /* GenProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071E3F8C54D07280D1B352 /* GenCodeStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071245866907D12089135B /* GenCodeStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071F370AD9118E29F1DF7C /* GenStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 33071F091552BA0F090F05E4 /* GenStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33071F3BC5B8CC786C53464A /* GenType.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719E00160356FDA7CEDCF /* GenType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33071B1866A52C869AD6A78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330718AAD0203124E6A08A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33071D861208037A8CD57AA7;
+			remoteInfo = Gen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330710B8FE3F82EA0C6D466E /* GenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenObject.h; sourceTree = "<group>"; };
+		330710E6DFC6F0030A30FD45 /* GenStatementGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenStatementGroup.m; sourceTree = "<group>"; };
+		330710F17D905D147A7ED9FD /* GenConditionalStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenConditionalStatement.m; sourceTree = "<group>"; };
+		330711400AA2A4A5E6E055DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		330711822C777CC31164EA2F /* GenCompilationUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenCompilationUnit.h; sourceTree = "<group>"; };
+		330711D4FA7615B9EA4581DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		330711E10A8F5DD0A991867B /* GenConditionalStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenConditionalStatement.h; sourceTree = "<group>"; };
+		330711FDD01151F68B24536E /* GenVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenVariable.m; sourceTree = "<group>"; };
+		3307122C0D42988B2F399E0B /* GenStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenStatement.m; sourceTree = "<group>"; };
+		33071245866907D12089135B /* GenCodeStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenCodeStatement.h; sourceTree = "<group>"; };
+		33071276077C439A510B8C5E /* GenType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenType.h; sourceTree = "<group>"; };
+		330712B8B4C5D2D00AF3461B /* GenProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenProperty.h; sourceTree = "<group>"; };
+		33071388A50D7E2466039889 /* GenArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenArgument.m; sourceTree = "<group>"; };
+		330713C95BEEEA339E0C9594 /* GenProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenProtocol.h; sourceTree = "<group>"; };
+		3307141172A40590E7DC9CCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
+		3307141CBC0E4A67E6782C06 /* Gen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3307141D231FC58883BE5AFF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		330715018A446F18459ACFB5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		33071520E7FB20E434B3118B /* Gen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gen-Prefix.pch"; sourceTree = "<group>"; };
+		3307152D9CDFE01528B30F8A /* GenMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenMethod.m; sourceTree = "<group>"; };
+		3307158770261A8C00BC6654 /* GenMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenMethod.h; sourceTree = "<group>"; };
+		3307163B0D192C7244113FA4 /* GenProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenProtocol.m; sourceTree = "<group>"; };
+		3307166BBE28451086F13F00 /* GenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenTests.m; sourceTree = "<group>"; };
+		33071749141CEA951AC8DCB7 /* GenEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenEnumeration.h; sourceTree = "<group>"; };
+		33071799257A2AFE08807B96 /* GenStatementGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenStatementGroup.h; sourceTree = "<group>"; };
+		3307182785D40793B108EBD5 /* Gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gen.h; sourceTree = "<group>"; };
+		330718AF2DF7D703A01D6AFE /* GenTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenTypedef.h; sourceTree = "<group>"; };
+		330718B568C89075B40C4D85 /* GenClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenClass.m; sourceTree = "<group>"; };
+		330718CCD7911609452298B0 /* GenClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenClass.h; sourceTree = "<group>"; };
+		330719096344A7F0F52E3C46 /* GenArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenArgument.h; sourceTree = "<group>"; };
+		330719E00160356FDA7CEDCF /* GenType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenType.m; sourceTree = "<group>"; };
+		33071A79F7D835440B4883E7 /* GenVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenVariable.h; sourceTree = "<group>"; };
+		33071AE53C2772883CC074D3 /* GenProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenProperty.m; sourceTree = "<group>"; };
+		33071B201041BA39D70CC9D8 /* GenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33071C70DD174B788E2FB185 /* GenEnumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenEnumeration.m; sourceTree = "<group>"; };
+		33071C8A74E07B668E88DAFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33071CA954DB8DDD95BF0BC4 /* GenCompilationUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenCompilationUnit.m; sourceTree = "<group>"; };
+		33071DC6FF4CD24613794DCC /* GenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenTests.h; sourceTree = "<group>"; };
+		33071E40C8A4900FD35123BE /* GenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "GenTests-Info.plist"; sourceTree = "<group>"; };
+		33071E717F11F3DCD034420F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		33071F091552BA0F090F05E4 /* GenStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenStatement.h; sourceTree = "<group>"; };
+		33071F256484AC6E34ECECE7 /* GenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenObject.m; sourceTree = "<group>"; };
+		33071F262E19F7AD1ABB1BE5 /* GenTypedef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenTypedef.m; sourceTree = "<group>"; };
+		33071F712620DE6DF7C6CC68 /* Gen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Gen-Info.plist"; sourceTree = "<group>"; };
+		33071FBF7C0E0BFF30D8E223 /* GenCodeStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenCodeStatement.m; sourceTree = "<group>"; };
+		33071FF20D782FDCC7E54C8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33071CB73AE729C06B00C9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330710EA55C76B7D21EC3E96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33071CE5DBAAF9FE015F627A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330712B67D2F81DBCA9F1BDE /* SenTestingKit.framework in Frameworks */,
+				330715EFA13E39829A3383BD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330710A9A577993F265413D3 = {
+			isa = PBXGroup;
+			children = (
+				3307141172A40590E7DC9CCB /* README.md */,
+				330715C2B1B335B5490C9A41 /* Products */,
+				33071F423E013B6C583C5062 /* Frameworks */,
+				3307125661174579250A41B5 /* Gen */,
+				330719ED994D038329C06009 /* GenTests */,
+			);
+			sourceTree = "<group>";
+		};
+		330711E13BCBD8F2BE849240 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33071C8A74E07B668E88DAFF /* Foundation.framework */,
+				33071FF20D782FDCC7E54C8C /* CoreData.framework */,
+				330715018A446F18459ACFB5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3307125661174579250A41B5 /* Gen */ = {
+			isa = PBXGroup;
+			children = (
+				3307182785D40793B108EBD5 /* Gen.h */,
+				330711FDD01151F68B24536E /* GenVariable.m */,
+				33071A79F7D835440B4883E7 /* GenVariable.h */,
+				33071F262E19F7AD1ABB1BE5 /* GenTypedef.m */,
+				330718AF2DF7D703A01D6AFE /* GenTypedef.h */,
+				330719E00160356FDA7CEDCF /* GenType.m */,
+				33071276077C439A510B8C5E /* GenType.h */,
+				330710E6DFC6F0030A30FD45 /* GenStatementGroup.m */,
+				33071799257A2AFE08807B96 /* GenStatementGroup.h */,
+				3307122C0D42988B2F399E0B /* GenStatement.m */,
+				33071F091552BA0F090F05E4 /* GenStatement.h */,
+				3307163B0D192C7244113FA4 /* GenProtocol.m */,
+				330713C95BEEEA339E0C9594 /* GenProtocol.h */,
+				33071AE53C2772883CC074D3 /* GenProperty.m */,
+				330712B8B4C5D2D00AF3461B /* GenProperty.h */,
+				33071F256484AC6E34ECECE7 /* GenObject.m */,
+				330710B8FE3F82EA0C6D466E /* GenObject.h */,
+				3307152D9CDFE01528B30F8A /* GenMethod.m */,
+				3307158770261A8C00BC6654 /* GenMethod.h */,
+				33071C70DD174B788E2FB185 /* GenEnumeration.m */,
+				33071749141CEA951AC8DCB7 /* GenEnumeration.h */,
+				330710F17D905D147A7ED9FD /* GenConditionalStatement.m */,
+				330711E10A8F5DD0A991867B /* GenConditionalStatement.h */,
+				33071CA954DB8DDD95BF0BC4 /* GenCompilationUnit.m */,
+				330711822C777CC31164EA2F /* GenCompilationUnit.h */,
+				33071FBF7C0E0BFF30D8E223 /* GenCodeStatement.m */,
+				33071245866907D12089135B /* GenCodeStatement.h */,
+				330718B568C89075B40C4D85 /* GenClass.m */,
+				330718CCD7911609452298B0 /* GenClass.h */,
+				33071388A50D7E2466039889 /* GenArgument.m */,
+				330719096344A7F0F52E3C46 /* GenArgument.h */,
+				33071DBB68D73E0B5DE3ACA7 /* Supporting Files */,
+			);
+			path = Gen;
+			sourceTree = "<group>";
+		};
+		330715C2B1B335B5490C9A41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3307141CBC0E4A67E6782C06 /* Gen.framework */,
+				33071B201041BA39D70CC9D8 /* GenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330716B89C2646EC0EACD864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33071A673AC06B58E1B47C3D /* InfoPlist.strings */,
+				33071E40C8A4900FD35123BE /* GenTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330719ED994D038329C06009 /* GenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3307166BBE28451086F13F00 /* GenTests.m */,
+				33071DC6FF4CD24613794DCC /* GenTests.h */,
+				330716B89C2646EC0EACD864 /* Supporting Files */,
+			);
+			path = GenTests;
+			sourceTree = "<group>";
+		};
+		33071DBB68D73E0B5DE3ACA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33071520E7FB20E434B3118B /* Gen-Prefix.pch */,
+				330717457FCF2CC0AE9B203B /* InfoPlist.strings */,
+				33071F712620DE6DF7C6CC68 /* Gen-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33071F423E013B6C583C5062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3307141D231FC58883BE5AFF /* SenTestingKit.framework */,
+				33071E717F11F3DCD034420F /* Cocoa.framework */,
+				330711E13BCBD8F2BE849240 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33071E6C639CF4FD9C00B352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071D731C1AFE812DD553AA /* GenArgument.h in Headers */,
+				33071B1788130B3D3D4C149F /* GenClass.h in Headers */,
+				33071E3F8C54D07280D1B352 /* GenCodeStatement.h in Headers */,
+				33071794BFD3631B44B76BB9 /* GenCompilationUnit.h in Headers */,
+				330712EFBBF6CF3A87681859 /* GenConditionalStatement.h in Headers */,
+				33071B3789DBBB5F6528082D /* GenEnumeration.h in Headers */,
+				330717C6E72CF533C7735E2C /* GenMethod.h in Headers */,
+				33071C5CF875348C3DFA6F34 /* GenObject.h in Headers */,
+				330713EE5AFFE02F64917686 /* GenProperty.h in Headers */,
+				33071E3E0A76E8E98BC25981 /* GenProtocol.h in Headers */,
+				33071F370AD9118E29F1DF7C /* GenStatement.h in Headers */,
+				33071679EE1443FDEB7736AA /* GenStatementGroup.h in Headers */,
+				3307124321209C455762A648 /* GenType.h in Headers */,
+				33071CC0336910423BD2AF5A /* GenTypedef.h in Headers */,
+				3307166223FE9E6C54F9F8AA /* GenVariable.h in Headers */,
+				33071A46CB5FE7EED0323B08 /* Gen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3307101915C88B562A1611DC /* GenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330712B9E046CBAEF2AAD61A /* Build configuration list for PBXNativeTarget "GenTests" */;
+			buildPhases = (
+				33071D08D1D25946A46E80BF /* Sources */,
+				33071CE5DBAAF9FE015F627A /* Frameworks */,
+				33071E3E356213055B41E998 /* Resources */,
+				330718EB60D03FBFDF1FC0F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330712E1FED342EA423590E9 /* PBXTargetDependency */,
+			);
+			name = GenTests;
+			productName = GenTests;
+			productReference = 33071B201041BA39D70CC9D8 /* GenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		33071D861208037A8CD57AA7 /* Gen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33071B54A7EF1D45CF0374B1 /* Build configuration list for PBXNativeTarget "Gen" */;
+			buildPhases = (
+				33071E6C639CF4FD9C00B352 /* Headers */,
+				3307151BBC79F85619FDAFD6 /* Sources */,
+				33071CB73AE729C06B00C9A5 /* Frameworks */,
+				330717AA6BFE8AC0B2D35F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gen;
+			productName = Gen;
+			productReference = 3307141CBC0E4A67E6782C06 /* Gen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330718AAD0203124E6A08A0B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3307116B9CAFE12FAAED909B /* Build configuration list for PBXProject "Gen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 330710A9A577993F265413D3;
+			productRefGroup = 330715C2B1B335B5490C9A41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33071D861208037A8CD57AA7 /* Gen */,
+				3307101915C88B562A1611DC /* GenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330717AA6BFE8AC0B2D35F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071DC9ED8ECDD7D9245B3A /* InfoPlist.strings in Resources */,
+				33071A4E08BC97AE74A60A5C /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33071E3E356213055B41E998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071CBE28FDC76616662856 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330718EB60D03FBFDF1FC0F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3307151BBC79F85619FDAFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071321BE0343A808E463BE /* GenArgument.m in Sources */,
+				33071DADB4713D7BFED5A9CA /* GenClass.m in Sources */,
+				330718310F669A0EC9E468B0 /* GenCodeStatement.m in Sources */,
+				3307115727DD03A48277BB94 /* GenCompilationUnit.m in Sources */,
+				330710BE71203736FD3CB99D /* GenConditionalStatement.m in Sources */,
+				3307174CEC532B61A5EE8343 /* GenEnumeration.m in Sources */,
+				330713487CC64940D5C4DBCD /* GenMethod.m in Sources */,
+				33071637737A15C3C61B1D66 /* GenObject.m in Sources */,
+				3307193165CBA3D193F9AC85 /* GenProperty.m in Sources */,
+				33071363B5D3F2957E92952F /* GenProtocol.m in Sources */,
+				33071D23F8D25E683BC84F29 /* GenStatement.m in Sources */,
+				33071A2975D9F0E313366CFD /* GenStatementGroup.m in Sources */,
+				33071F3BC5B8CC786C53464A /* GenType.m in Sources */,
+				33071946304DE0B7D4237993 /* GenTypedef.m in Sources */,
+				33071BBFFCD80CC148C47A2C /* GenVariable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33071D08D1D25946A46E80BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330713B65761B0BFEB6DA1EA /* GenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330712E1FED342EA423590E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33071D861208037A8CD57AA7 /* Gen */;
+			targetProxy = 33071B1866A52C869AD6A78E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330717457FCF2CC0AE9B203B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330711400AA2A4A5E6E055DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33071A673AC06B58E1B47C3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330711D4FA7615B9EA4581DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33071138D1CE9C72367B4142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		330712189B505090DA44E306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gen/Gen-Prefix.pch";
+				INFOPLIST_FILE = "GenTests/GenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3307189DB2356BEED6D45068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gen/Gen-Prefix.pch";
+				INFOPLIST_FILE = "Gen/Gen-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		33071C0F8BD27D528319BC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33071C777F8B8DA5248DB429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gen/Gen-Prefix.pch";
+				INFOPLIST_FILE = "Gen/Gen-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		33071D6EC5AF7A815769FBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gen/Gen-Prefix.pch";
+				INFOPLIST_FILE = "GenTests/GenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3307116B9CAFE12FAAED909B /* Build configuration list for PBXProject "Gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33071C0F8BD27D528319BC20 /* Release */,
+				33071138D1CE9C72367B4142 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330712B9E046CBAEF2AAD61A /* Build configuration list for PBXNativeTarget "GenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33071D6EC5AF7A815769FBB2 /* Release */,
+				330712189B505090DA44E306 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33071B54A7EF1D45CF0374B1 /* Build configuration list for PBXNativeTarget "Gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3307189DB2356BEED6D45068 /* Release */,
+				33071C777F8B8DA5248DB429 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330718AAD0203124E6A08A0B /* Project object */;
+}
