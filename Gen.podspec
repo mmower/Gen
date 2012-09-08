@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                     being converted into .m/.h files.
                    DESC
   s.homepage     = "https://github.com/mmower/Gen"
-  s.license      = 'BSD' 
+  s.license      = 'BSD'
   s.author       = { "Matt Mower" => "self@mattmower.com" }
   s.source       = { :git => "https://github.com/mmower/Gen.git", :tag => "1.0" }
   s.ios.deployment_target = '5.0'
