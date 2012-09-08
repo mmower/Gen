@@ -20,7 +20,8 @@ work with strings. Though even here `Gen` provides some helper methods to make i
 
 Here is a real example of using `Gen`, taken from the source of Statec. This method creates the `.m`/`.h` files for the user-facing
  state machine class. You can see the creation of a class with a private instance variable (i.e. the variable is defined in a class
-continuation) that implements a protocol and defines the methods of that protocol:
+extension) that implements a protocol and defines the methods of that protocol. In particular you can see how, when the method
+tagged `start` is being defined it looks up a method in the implementation class and uses the `GenMethod` to create a call to it:
 
     - (GenCompilationUnit *)generateUnit {
       NSString *userClassName = [NSString stringWithFormat:@"%@%@Machine",
