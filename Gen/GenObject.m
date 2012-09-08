@@ -9,6 +9,15 @@
 
 #import "GenObject.h"
 
+/**
+* GenObject is used as the base class for some of the other Gen object types and provides a simple tagging
+* facility. In this sense GenObject does not refer to objects in the Objective-C sense but to objects implementing
+* the Gen types.
+*
+* For example GenMethod inherits from GenObject and can, therefore, have a tag. While a method could
+* be looked up via its selector it's often easier to tag methods you are interested in with simpler names.
+*/
+
 
 @implementation GenObject {
 

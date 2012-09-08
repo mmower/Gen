@@ -8,6 +8,10 @@
 
 #import "GenArgument.h"
 
+/**
+* Instances of GenArgument are used to describe the name & Objective-C type of the arguments to a method.
+*/
+
 @implementation GenArgument
 
 @synthesize type = _type;

@@ -10,6 +10,17 @@
 
 #import "GenMethod.h"
 
+/**
+* Instances of GenProtocol represent an Objective-C protocol that a class can be made to conform to. Much like
+* a GenClass can have a base class a GenProtocol can have a base protocol.
+*
+* Instances of GenMethod can be added to the protocol using -addMethod: and, in this case, they may have no body
+* and if they do the body will be ignored.
+*
+* @warning much as with the baseClass issue with GenClass the baseProtocol for GenProtocol may be too inflexible for
+* general use.
+*/
+
 @implementation GenProtocol
 
 @synthesize name = _name;

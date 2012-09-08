@@ -8,6 +8,16 @@
 
 #import "GenMethod.h"
 
+/**
+* Instances of GenMethod are used to represent class and instance methods and are added to GenClass objects
+* using the -addMethod: and -addInitializer: methods.
+*
+* The selector of the method can be specified either using an Objective-C SEL via @selector or as a string. The selector
+* will be decoded and the expected number of arguments should be defined using the -addArgument: method.
+*
+* Unfortunately because we are working at the string level we cannot infer the return type and you'll need to pass it :)
+*/
+
 @implementation GenMethod
 
 @synthesize scope = _scope;

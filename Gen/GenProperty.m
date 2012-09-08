@@ -8,6 +8,10 @@
 
 #import "GenProperty.h"
 
+/**
+* Instances of GenProperty represent an Objective-C @property that can be added to a class.
+*/
+
 @implementation GenProperty
 
 @synthesize attributes = _attributes;

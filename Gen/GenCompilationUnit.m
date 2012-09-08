@@ -10,6 +10,11 @@
 
 #import "Gen.h"
 
+/**
+* Instances of GenCompilationUnit are used to create entire .m/.h files containing classes, protocols, variables,
+* and so on.
+*/
+
 @implementation GenCompilationUnit
 
 @synthesize name = _name;
